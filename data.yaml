@@ -1,0 +1,15 @@
+//train: ../train/images
+//val: ../valid/images
+train: C:/Users/Administrator/Downloads/Pothole-bumps/train/images
+val: C:/Users/Administrator/Downloads/Pothole-bumps/valid/images
+test: ../test/images
+
+nc: 2
+names: ['Bump', 'Pothole']
+
+roboflow:
+  workspace: xira
+  project: potholes-bumps
+  version: 8
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/xira/potholes-bumps/dataset/8
